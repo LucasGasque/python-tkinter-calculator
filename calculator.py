@@ -3,6 +3,7 @@ from tkinter import *
 #Configuração do tkinter
 cal=Tk()
 cal.title('Calculadora') #Título
+
 cal['bg'] = 'black' #Cor de fundo
 
 #visor

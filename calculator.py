@@ -37,7 +37,7 @@ def sub(): #Função Subtrair
     f_num = float(num_1)
     e.delete(0, END)
 
-def mult():
+def mult(): #Função Multiplicar
     num_1 = e.get()
     global f_num
     global op
@@ -45,7 +45,7 @@ def mult():
     f_num = float(num_1)
     e.delete(0, END)
 
-def div():
+def div(): #Função Dividir
     num_1 = e.get()
     global f_num
     global op
@@ -53,7 +53,7 @@ def div():
     f_num = float(num_1)
     e.delete(0, END)
 
-def iqual():
+def iqual(): #Função Botão "Igual"
     num_2 = e.get()
     e.delete(0, END)
 

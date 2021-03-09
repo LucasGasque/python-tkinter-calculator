@@ -84,29 +84,29 @@ def msm():
   
 #Definir Botões
 
-btn_1 = Button(text='1', padx= 30, pady=20, bg="white", command= lambda: click(1))
-btn_2 = Button(text='2', padx= 30, pady=20, bg="white", command= lambda: click(2))
-btn_3 = Button(text='3', padx= 30, pady=20, bg="white", command= lambda: click(3))
-btn_4 = Button(text='4', padx= 30, pady=20, bg="white", command= lambda: click(4))
-btn_5 = Button(text='5', padx= 30, pady=20, bg="white", command= lambda: click(5))
-btn_6 = Button(text='6', padx= 30, pady=20, bg="white", command= lambda: click(6))
-btn_7 = Button(text='7', padx= 30, pady=20, bg="white", command= lambda: click(7))
-btn_8 = Button(text='8', padx= 30, pady=20, bg="white", command= lambda: click(8))
-btn_9 = Button(text='9', padx= 30, pady=20, bg="white", command= lambda: click(9))
-btn_0 = Button(text='0', padx= 30, pady=20, bg="white", command= lambda: click(0))
+btn_1 = Button(text='1', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(1))
+btn_2 = Button(text='2', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(2))
+btn_3 = Button(text='3', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(3))
+btn_4 = Button(text='4', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(4))
+btn_5 = Button(text='5', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(5))
+btn_6 = Button(text='6', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(6))
+btn_7 = Button(text='7', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(7))
+btn_8 = Button(text='8', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(8))
+btn_9 = Button(text='9', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(9))
+btn_0 = Button(text='0', padx= 30, pady=20, bg="black",fg='white', command= lambda: click(0))
 
 #Definir Botões de Operações
 
-btn_a = Button(text='+', padx= 30, pady=20, bg="white", command= soma)
-btn_m = Button(text='-', padx= 30, pady=20, bg="white", command= sub)
-btn_x = Button(text='*', padx= 30, pady=20, bg="white", command= mult)
-btn_d = Button(text='/', padx= 30, pady=20, bg="white", command= div)
-btn_i = Button(text='=', padx= 30, pady=20, bg="white", command= iqual)
-btn_c = Button(text='C', padx= 30, pady=20, bg="white", command= clear)
-btn_p = Button(text='.', padx= 30, pady=20, bg="white", command= lambda: click('.'))
-btn_ms = Button(text='MS', padx= 26, pady=20, bg="white", command= bms)
-btn_msp = Button(text='+MS', padx= 23, pady=20, bg="white", command= msp)
-btn_msm = Button(text='-MS', padx= 23, pady=20, bg="white", command= msm)
+btn_a = Button(text='+', padx= 30, pady=20, bg="#141414",fg='white', command= soma)
+btn_m = Button(text='-', padx= 30, pady=20, bg="#141414",fg='white', command= sub)
+btn_x = Button(text='*', padx= 30, pady=20, bg="#141414",fg='white', command= mult)
+btn_d = Button(text='/', padx= 30, pady=20, bg="#141414",fg='white', command= div)
+btn_i = Button(text='=', padx= 30, pady=20, bg="#00187A",fg='white', command= iqual)
+btn_c = Button(text='C', padx= 30, pady=20, bg="black",fg='white', command= clear)
+btn_p = Button(text='.', padx= 30, pady=20, bg="black",fg='white', command= lambda: click('.'))
+btn_ms = Button(text='MS', padx= 26, pady=20, bg="#141414",fg='white', command= bms)
+btn_msp = Button(text='+MS', padx= 23, pady=20, bg="#141414",fg='white', command= msp)
+btn_msm = Button(text='-MS', padx= 23, pady=20, bg="#141414",fg='white', command= msm)
 
 #Grid dos Botões
 
